@@ -8,7 +8,7 @@
 .shareWrapper{
     padding: 10px;
 }
-.shareTop{
+.Topclass{
     display: flex;
     align-items: center;
 }
@@ -30,30 +30,30 @@
 .shareHr{
     margin: 20px;
 }
-.shareBottom{
+.s_Bottom{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.shareOption{
+.s_Option{
     display: flex;
     margin-left: 20px;
 }
-.shareOptions{
+.s_Options{
     display: flex;
     align-items: center;
     margin-right: 15px;
     cursor: pointer;
 }
-.shareIcon{
+.s_icons{
     font-size: 18px;
     margin-right: 3px;
 }
-.shareOptionText{
+.s_options_txt{
     font-size: 14px;
     font-weight: 500;
 }
-.shareButton{
+.s_buttons{
     border: none;
     padding: 10px;
     border-radius: 5px;

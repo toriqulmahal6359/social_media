@@ -5,34 +5,31 @@ export default function Share() {
     return (
         <div className="share">
             <div className="shareWrapper">
-                <div className="shareTop">
-                    <img src="/assets/person/1.jpg" alt="" className="shareProfileImg" />
-                    <input 
-                        placeholder="What's in Your Mind, Jannet?" 
-                        className="shareInput" 
-                    />
+                <div className="Topclass">
+                    <img src="/assets/person/1.jpg" className="shareProfileImg" alt="" />
+                    <input placeholder="What's in Your Mind, Jannet?" className="shareInput" />
                 </div>
                 <hr className="shareHr"/>
-                <div className="shareBottom">
-                    <div className="shareOption">
-                        <div className="shareOptions">
-                            <PermMedia htmlColor="tomato" className="shareIcon"/>
-                            <span className="shareOptionText">Photo or Video</span>
+                <div className="s_Bottom">
+                    <div className="s_Option">
+                        <div className="s_Options">
+                            <PermMedia htmlColor="tomato" className="s_icons"/>
+                            <span className="s_options_txt">Photo or Video</span>
                         </div>
-                        <div className="shareOptions">
-                            <Label htmlColor="blue" className="shareIcon"/>
-                            <span className="shareOptionText">Tag</span>
+                        <div className="s_Options">
+                            <Label htmlColor="blue" className="s_icons"/>
+                            <span className="s_options_txt">Tag</span>
                         </div>
-                        <div className="shareOptions">
-                            <Room htmlColor="green" className="shareIcon"/>
-                            <span className="shareOptionText">Location</span>
+                        <div className="s_Options">
+                            <Room htmlColor="green" className="s_icons"/>
+                            <span className="s_options_txt">Location</span>
                         </div>
-                        <div className="shareOptions">
-                            <EmojiEmotions htmlColor="goldenrod" className="shareIcon"/>
-                            <span className="shareOptionText">Feelings</span>
+                        <div className="s_Options">
+                            <EmojiEmotions htmlColor="goldenrod" className="s_icons"/>
+                            <span className="s_options_txt">Feelings</span>
                         </div>
                     </div>
-                    <button className="shareButton">Share</button>
+                    <button className="s_buttons">Share</button>
                 </div>
             </div>
         </div>
